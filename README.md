@@ -7,7 +7,7 @@ import socket, ssl
 import OpenSSL
 import os
 from subprocess import call
-call('openssl x509 -startdate -enddate -noout -in /etc/apache2/ssl/apache.crt', shell=True)
+call('openssl x509 -startdate -enddate -noout -in /path/to/the certificate file end with .pem or .crt', shell=True)
 ````
 the sample output will like this:
 ````
