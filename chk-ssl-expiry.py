@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
     print('\n')
 
-    """Replace 'your_url' with your target remote server's url or ip address, like 'google.ca'"""
+    """Replace 'your_url' with your target remote server's url or ip address, like 'example.com'"""
     host = 'your_url'
     message = check_host(host)
     print(message)
